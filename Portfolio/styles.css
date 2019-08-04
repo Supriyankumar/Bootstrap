@@ -1,0 +1,22 @@
+.jumbotron{
+    
+    min-height: 300px;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("supp.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: lightblue;
+}
+.jumbotron h4{
+    margin-top: 20%;
+    letter-spacing: 20px;
+}
+.card-img-top{
+    width:100%;
+}
+button{
+    float: right;
+    
+}

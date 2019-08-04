@@ -1,0 +1,24 @@
+.jumbotron-fluid{
+    background-color: darkturquoise;
+    padding:20px;
+    font-family:cursive;
+    color:white;
+    margin-bottom:0;
+    
+}
+.top{
+    margin-left: 300px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+footer{
+    background-color:darkturquoise;
+    padding: 25px;
+    color:white;
+    text-align: center;
+}
+footer .form-inline{
+    text-align: center;
+    margin-left: 30%;
+}

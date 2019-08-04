@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "utf-8">
+    <meta name = "viewport" content= "width=device-width, initial-scale=1">
+    <!-- adding Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    
+    <!-- adding font-family link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <style>
+        body{
+            
+            font-family: "Montserrat", sans-serif;
+        }
+        .navbar, .navbar-nav{
+            display:block;
+            
+        }
+        .coupon {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.coupon .container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+
+.expire {
+    color: red;
+        }
+    
+    </style>
+</head>
+    <body>
+        <div class="container">
+            <h1 class="display-4 text-center" style="margin-top: 20px; padding: 20px">My Collections</h1>
+            
+            <!-- left column -->
+            
+            
+            <div class="row" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+            <div class="col-sm-3" style="background-color:white;">
+                <h4>Cusp Department</h4>
+                
+                <div class="row">
+                
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Shirts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Dresses</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle show" href="#collapseOne" id="navbardrop" data-toggle="dropdown">
+        Jeans
+      </a>
+      <div class="dropdown-menu" id="collapseOne">
+        <a class="dropdown-item" href="#">Straight</a>
+        <a class="dropdown-item" href="#">Skinny</a>
+        <a class="dropdown-item" href="#">Bootcut</a>
+        <a class="dropdown-item" href="#">Relaxed</a> 
+      </div>
+    </li>
+      
+      <li class="nav-item">
+      <a class="nav-link" href="#">Shoes</a>
+    </li>
+      
+      <li class="nav-item">
+      <a class="nav-link" href="#">Active wear</a>
+    </li>
+      
+      <li class="nav-item">
+      <a class="nav-link" href="#">Jackets</a>
+    </li>
+      
+      <li class="nav-item">
+      <a class="nav-link" href="#">Belts</a>
+    </li>
+  </ul>
+</nav>
+                    
+                    </div><!-- end of col -->
+                
+                </div><!-- end of col -sm -4 row-->
+                
+                <br>
+                <br>
+                <div class="row">
+                <div class="col">
+                    
+                    <div class="coupon">
+  <div class="container">
+    <h3 class="text-center">My Collections</h3>
+  </div>
+  <img src="ripped.jpeg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h4><b>20% OFF YOUR PURCHASE</b></h4> 
+    <p>Original and regular-priced offers do not apply to 20% off, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Extreme Value, Best Value, Daily Deals, Levi’s, Denizen from Levi’s, Alfred Dunner, Tracee Ellis Ross, Workwear and Scrubs, Men’s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Nike, adidas, Converse, Smoky Mountain, Athletic Shoes.</p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">COLLECT20</span></p>
+    <p class="expire">Expires: Dec 03, 2018</p>
+  </div>
+</div>
+                    
+                    </div>
+                
+                </div>
+                </div><!--end of div col-sm-4 -->
+                
+                
+                <!-- right column -->
+                
+                
+            <div class="col-sm-9" id="myScrollspy"><!-- style="background-color:beige-->
+                    <h4>Jeans <i class="fa fa-search float-right"></i><i class="fa fa-shopping-cart float-right"></i>
+                        </h4>
+                
+
+                
+                            <div class="card">
+          <img class="img-fluid card-img-top" src="jeans.jpg" alt="jeans">
+          <div class="card-img-overlay">
+            <h1 class="card-title display-4" style="color: white">New arrivals</h1>
+              <h1 class="card-text" style="color:white"><small>COLLECTION 2018</small></h1>
+            <a href="#" class="btn btn-primary">SHOP NOW</a>
+          </div><!-- end card-img-overlay -->
+        </div><!--end of card -->
+        <p>10 items</p> <!-- display number of items -->
+                    
+                <div class="card-columns">
+      <div class="card">
+            <img class="img-fluid card-img-top" src="vintage.jpg" alt="vintage">
+                        
+                        <div class="card-img-overlay">
+          <h4><span class="badge badge-secondary">Sale</span></h4>
+                        </div>
+                                
+                </div><!-- end of card -->
+                        
+                            <div class="card">
+            <img class="img-fluid card-img-top" src="ripped.jpeg" alt="ripped">
+                        
+                        
+                                
+                </div><!-- end of card -->
+                        
+                        <div class="card">
+            <img class="img-fluid card-img-top" src="jeans.jpg" alt="jeans">
+                        
+                            
+                                
+                </div><!-- end of card -->
+                        
+                
+                    
+                </div><!-- end of  first card-columns -->
+                
+                <div class="card-columns">
+                <div class="card">
+            <img class="img-fluid card-img-top" src="cut.jpeg" alt="cut">
+                        
+                        
+                                
+                </div><!-- end of card -->
+                    
+                    <div class="card">
+            <img class="img-fluid card-img-top" src="vintage.jpg" alt="vintage">
+                        
+                        
+                                
+                </div><!-- end of card -->
+                
+                    
+                    <div class="card">
+    <img class="img-fluid card-img-top" src="rag.jpeg" alt="rag">
+                        <div class="card-img-overlay">
+          <h4><span class="badge badge-secondary">New</span></h4>
+                        </div>
+          </div><!--end of card -->
+                
+                </div> <!-- end of second columns -->    
+                <div class="card-columns">
+                <div class="card">
+    <img class="img-fluid card-img-top" src="vin.jpg" alt="vin">
+                        
+          </div><!--end of card -->
+                    
+                    <div class="card">
+            <img class="img-fluid card-img-top" src="jeans.jpg" alt="jeans">
+                        
+                        <div class="card-img-overlay">
+          <h4><span class="badge badge-secondary">New</span></h4>
+                        </div>
+                                
+                </div><!-- end of card -->
+                
+                    
+                    <div class="card">
+            <img class="img-fluid card-img-top" src="straight.jpeg" alt="straight">
+                        
+                        <div class="card-img-overlay">
+          <h4><span class="badge badge-secondary">Sale</span></h4>
+                        </div>
+                                
+                </div><!-- end of card -->
+                    
+                    <div class="card">
+            <img class="img-fluid card-img-top" src="vin.jpeg" alt="vin">
+                        
+                       
+                </div><!-- end of card -->
+                    
+                </div><!-- end of third card-columns-->
+                
+                <div class="row">
+                <div class="col" style="background-color:black">
+                
+                    <h3 style="color:white; padding-top: 15px;">Subscribe</h3>
+                    <p style="color: white">To receive special offers:</p>
+                    <form action ="/action_page.php" style="padding-bottom: 30px;">
+                    <div class="form-group">
+    
+        <input type="email" class="form-control" id="email" placeholder="Enter e-mail">
+                        
+      </div> <!-- end of form-group -->
+                        
+                    <button type="submit" class="btn btn-danger">Subscribe</button>
+                    </form>
+                    
+                    </div> <!-- end of col -->
+                </div><!-- end of col-sm-9 row -->
+                
+                <div class="row">
+                <div class="col text-center" style="background-color:whitesmoke; padding:30px;">
+                   <h4>Contact</h4>
+                    <p>Questions?</p>
+                    <form action ="/action_page.php" style="padding-bottom: 30px;">
+                    <div class="form-group">
+    
+        <input type="name" class="form-control" id="name" placeholder="Name">
+                        <input type="email" class="form-control" id="name" placeholder="Email">
+                        <input type="name" class="form-control" id="name" placeholder="Subject">
+                        <input type="name" class="form-control" id="email" placeholder="Message">
+                        
+      </div> <!-- end of form-group -->
+                        
+                    <button type="submit" class="btn" style="background-color: black; color:white">Send</button>
+                        </form>
+                    </div>
+                    <div class="col" style="background-color: whitesmoke; padding: 30px">
+                    <h4 style="padding-left:40px">About</h4>
+                        <ul style="list-style-type: none; text-decoration: underline">
+                       <li><a href="#"class="text-center" style="color:black">About us</a></li> 
+                        <li><a href="#"class="text-center" style="color:black">We're hiring</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Support</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Find store</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Shipment</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Payment</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Gift card</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Return</a></li>
+                        <li><a href="#"class="text-center" style="color:black">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="col" style="background-color: whitesmoke; padding: 30px">
+                    <h4>Store</h4>
+                        <p><i class="fa fa-fw fa-map-marker"></i>My Collections</p>
+                        <p><i class="fa fa-fw fa-phone"></i> 123456</p>
+                        <p><i class="fa fa-fw fa-envelope"></i> factory@mail.com</p>
+                        <h4> We accept</h4>
+                        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+                        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                        <br>
+                        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+                    </div>
+                
+                </div><!-- end of row -->
+                
+                <div class="row">
+                <div class="col" style="background-color:black; padding: 25px">
+                    <p style="color: white" class="text-center">&copy; Copyright Supriya  2018</p>
+                    
+                    </div>
+                
+                
+                </div>
+                
+                </div><!-- end of div col-sm-9 -->
+            </div><!-- end of row -->
+            
+            
+        
+        </div><!-- end of container -->
+    
+    
+    </body>
+</html>
